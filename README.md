@@ -18,7 +18,7 @@ Semua kode program di dalam repository ini secara teknis pasti bisa dijalankan p
 
         `from google.colab import drive`
         
-        `drive.mount('/content/drive')`
+        `drive.mount("/content/drive")`
         
 ![usage-1](img/ss-3.png)
     - Akses link yang tersedia
@@ -29,10 +29,10 @@ Semua kode program di dalam repository ini secara teknis pasti bisa dijalankan p
 ![usage-3](img/ss-5.png)
 ![usage-4](img/ss-6.png)
 6. Akses dataset yang terupload, misalnya dengan Pandas:
-
     `import pandas as pd`
+    
+    `df = pd.read_csv("/content/drive/My Drive/Colab Notebooks/nama_file.csv")`
 
-    `df = pd.read_csv('/content/drive/My Drive/Colab Notebooks/nama_file.csv')`
 
 7. Dataset sudah siap dipakai.
 
