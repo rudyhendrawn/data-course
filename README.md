@@ -7,7 +7,7 @@ Seluruh kode program masih dalam proses pengerjaan. :grimacing:
 
 # Menggunakan Google Colab
 Semua kode program di dalam repository ini secara teknis pasti bisa dijalankan pada platform Google Colabolatory. Namun untuk bisa menjalankan kode program dengan dataset eksternal perlu langkah-langkah tambahan yaitu sebagai berikut:
-1. Download salah satu atau semua dataset di folder. [datasets](datasets)
+1. Download salah satu atau semua dataset di folder [datasets](datasets).
 ![ss](img/ss-1.png)
 2. Akses Google Drive dengan menggunakan akun Google anda. Biasanya jika anda sudah pernah menggunakan Google Colab akan ada folder Colab Notebooks di direktor Google Drive anda.
 ![colabnotebook](img/ss-2.png)
@@ -15,8 +15,9 @@ Semua kode program di dalam repository ini secara teknis pasti bisa dijalankan p
 4. Upload dokumen dataset ke folder **`datasets`**. 
 5. Akses dataset pada Google Colab:
     - Jalankan kode program berikut pada shell pertama
-`from google.colab import drive`
-`drive.mount('/content/drive')`
+
+        `from google.colab import drive`
+        `drive.mount('/content/drive')`
 ![usage-1](img/ss-3.png)
     - Akses link yang tersedia
     - Masuk dengan akun Google anda
