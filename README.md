@@ -17,7 +17,9 @@ Semua kode program di dalam repository ini secara teknis pasti bisa dijalankan p
     - Jalankan kode program berikut pada shell pertama
 
         `from google.colab import drive`
+        
         `drive.mount('/content/drive')`
+        
 ![usage-1](img/ss-3.png)
     - Akses link yang tersedia
     - Masuk dengan akun Google anda
