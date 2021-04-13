@@ -35,8 +35,7 @@ Semua kode program di dalam repository ini secara teknis pasti bisa dijalankan p
 # Menggunakan Dataset di repository ini ke Google Colab.
 1. Akses laman [datasets](https://github.com/cornflake15/data-course/tree/main/datasets) pada repository ini.![](img/ss-1.png)
 2. Klik salah satu dataset yang ingin digunakan.
-3. Di bagian atas sebelah kanan, klik tombol **Raw**
-![](img/ss-4.png)
+3. Di bagian atas sebelah kanan, klik tombol **Raw**![](img/ss-4.png)
 4. Kemudian anda akan diarahkan ke halaman baru.
 5. Copy URL pada halaman baru tersebut ke kode program anda.
 
