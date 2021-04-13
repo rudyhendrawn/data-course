@@ -1,4 +1,4 @@
-# Code Repository
+# Pengantar
 
 Repositori ini berisi kode program Python dalam format Jupyter Notebook untuk keperluan mata kuliah Data Mining dan Data Visualization di Institut Teknologi dan Bisnis STIKOM Bali.
 
@@ -28,13 +28,14 @@ Semua kode program di dalam repository ini secara teknis pasti bisa dijalankan p
 # Menggunakan Dataset di repository ini ke Google Colab.
 1. Akses laman [datasets](https://github.com/cornflake15/data-course/tree/main/datasets) pada repository ini.![](img/ss-1.png)
 2. Klik salah satu dataset yang ingin digunakan.
-3. Di bagian atas sebelah kanan, klik tombol **Raw**![](img/ss-4.png)
+3. Di bagian atas sebelah kanan, klik tombol **Raw**
+![](img/ss-4.png)
 4. Kemudian anda akan diarahkan ke halaman baru.
 5. Copy URL pada halaman baru tersebut ke kode program anda.
 
-## License
-SKode program di dalam repository ini didapatkan dari [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook), [Hands-On Machine Learning with Scikit-Learn & Tensorflow](https://github.com/ageron/handson-ml), [Scikit-learn](https://scikit-learn.org/stable/), [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Pandas](https://pandas.pydata.org/), dan [Numpy](https://numpy.org/) dengan beberapa modifikasi untuk disesuaikan dengan kebutuhan perkuliahan.
+#### Licenses
+Kode program di dalam repository ini didapatkan dari [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook), [Hands-On Machine Learning with Scikit-Learn & Tensorflow](https://github.com/ageron/handson-ml), [Scikit-learn](https://scikit-learn.org/stable/), [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Pandas](https://pandas.pydata.org/), dan [Numpy](https://numpy.org/) dengan beberapa modifikasi untuk disesuaikan dengan kebutuhan perkuliahan.
 
-### Code
+#### Code
 Semua kode program di dalam repositori ini berada di bawah naungan [MIT license](LICENSE-CODE). Baca lebih lanjut di [Open Source Initiative](https://opensource.org/licenses/MIT).
 
