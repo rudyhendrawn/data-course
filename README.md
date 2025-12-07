@@ -1,6 +1,6 @@
 # Pengantar
 
-Repositori ini berisi kode program Python dalam format Jupyter Notebook untuk keperluan mata kuliah Data Mining dan Data Visualization di Institut Teknologi dan Bisnis STIKOM Bali.
+Repositori ini berisi kode program Python dalam format Jupyter Notebook untuk keperluan mata kuliah yang terkait dengan data di Institut Teknologi dan Bisnis STIKOM Bali.
 
 # Daftar Isi
 1. [Klasifikasi](https://github.com/rudyhendrawn/data-course/tree/main/data-mining/classification)
