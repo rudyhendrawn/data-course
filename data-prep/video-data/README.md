@@ -13,16 +13,16 @@ This means we begin video preprocessing by reusing what we already know about **
 
 A digital video consists of:
 
-- **Frames**  
+- **Frames**
   Each frame is a 2D image (RGB or grayscale).
 
-- **Frame Rate (FPS)**  
+- **Frame Rate (FPS)**
   Number of frames per second (e.g., 24, 30, 60 FPS).
 
-- **Resolution**  
+- **Resolution**
   Width × height of each frame.
 
-- **Duration**  
+- **Duration**
   Total length of the video in seconds.
 
 Mathematically:
@@ -71,10 +71,10 @@ This is much harder if you process raw video streams end-to-end.
 ### 2.5 Enables Two Processing Modes
 Frame decomposition supports both common video analysis strategies:
 
-1. **Frame-wise processing**  
+1. **Frame-wise processing**
    Treat frames independently (useful for tasks like classification per frame).
 
-2. **Temporal processing**  
+2. **Temporal processing**
    After preprocessing frames, you can compute relationships between frames:
    - frame differencing
    - motion estimation / optical flow
@@ -111,7 +111,7 @@ This is equivalent to checking `shape` and `dtype` for images.
 
 ## 🧠 Step 4 — First Preprocessing Operations (Image-Based)
 
-After a video has been decomposed into individual frames, the **next logical step** is to apply **image preprocessing techniques to each frame independently**.  
+After a video has been decomposed into individual frames, the **next logical step** is to apply **image preprocessing techniques to each frame independently**.
 At this stage, we deliberately **ignore temporal relationships** and focus on improving the **visual and numerical quality of each frame as an image**.
 
 These operations are therefore called **frame-wise operations**.
@@ -281,7 +281,7 @@ Why do we normalize frames *before* applying temporal operations such as frame d
 
 ## 🧠 Step 5 — Introducing Temporal Concepts (Later Stage)
 
-After completing **frame-wise preprocessing**, we move to the defining characteristic of video data: **time**.  
+After completing **frame-wise preprocessing**, we move to the defining characteristic of video data: **time**.
 At this stage, video is no longer treated as a collection of independent images, but as a **temporal signal** where meaning emerges from **changes across frames**.
 
 This step is intentionally introduced **later**, because temporal processing assumes that:
@@ -293,7 +293,7 @@ This step is intentionally introduced **later**, because temporal processing ass
 
 ## 5.1 Why Temporal Processing Comes *After* Frame-wise Processing
 
-Temporal methods rely on **differences and relationships between frames**.  
+Temporal methods rely on **differences and relationships between frames**.
 If frames are noisy, misaligned, or inconsistently scaled, temporal analysis will produce misleading results.
 
 For example:
@@ -307,7 +307,7 @@ Therefore, temporal preprocessing is built **on top of** image preprocessing, no
 
 ## 5.2 Frame Differencing
 
-### What It Is  
+### What It Is
 **Frame differencing** computes the absolute difference between consecutive frames:
 
 \[
@@ -332,7 +332,7 @@ Frame differencing is often the **first temporal operation** taught because it i
 
 ## 5.3 Motion Estimation
 
-### What It Is  
+### What It Is
 Motion estimation attempts to determine **how parts of the image move** between frames.
 
 Instead of asking *“what changed?”*, it asks:
@@ -355,7 +355,7 @@ Motion estimation introduces the idea that **motion has direction and magnitude*
 
 ## 5.4 Optical Flow
 
-### What It Is  
+### What It Is
 **Optical flow** estimates a **vector field** describing pixel-wise motion between frames.
 
 Each pixel is assigned:
@@ -378,7 +378,7 @@ Because of its mathematical complexity, optical flow is introduced **after** sim
 
 ## 5.5 Temporal Smoothing
 
-### What It Is  
+### What It Is
 **Temporal smoothing** reduces flickering and noise across time by averaging or filtering pixel values over multiple frames.
 
 ### Why It Is Needed
